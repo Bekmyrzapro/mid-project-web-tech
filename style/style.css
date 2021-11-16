@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    color: #fff;
+    min-height: 800px;
+}
+
+header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    max-height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    max-height: 60px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.logo:first-child {
+    margin-right: 0;
+}
+
+.name:hover {
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+}
+.link:hover {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.content {
+    margin: auto 300px;
+    margin-top: 80px;
+}
+
+.description {
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.233);
+    border-radius: 15px;
+    padding: 25px;
+}
+.watch {
+    margin-top: 100px;
+    display: flex ;
+    background: rgba(0, 0, 0, 0.76);
+    border-radius: 15px;
+    padding: 25px;
+}
+.w {
+    max-width: 400px;
+    
+    text-align: center;
+}
+
+.w:hover {
+    cursor: pointer;
+    font-size: large;
+}
+.wat-2 {
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+}
